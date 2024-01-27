@@ -1,6 +1,6 @@
 //const express = require('express');
 import  express  from "express";
-import { animal } from './routes/apiAnimal.js'
+import { pokemon } from './routes/apipokemon.js'
 
 const app = express();
 
@@ -10,7 +10,7 @@ app.use(express.json());
 
 const port = 4000;
 
-app.use('/api/animal', animal)
+app.use('/api/pokemon', pokemon)
 
 
 app.listen(port, ()=>{
