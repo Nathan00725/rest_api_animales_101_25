@@ -7,17 +7,7 @@ import { getAnimal,
          } from "../controller/animalController.js";
 
 
-const animales = [{
-    nombre: "perro",
-    sonido: "wouf"
-},
-{
-
-    nombre: "gato",
-    sonido: "miau"
-}]
-
-animal.get('', getAnimal)
+animal.get('', getAnimal);
 
 
 animal.post('', postAnimal)
